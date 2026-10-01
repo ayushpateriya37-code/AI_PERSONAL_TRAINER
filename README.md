@@ -28,7 +28,7 @@ It tracks your body through a webcam (or video file), measures joint angles, cou
 
 ## Installation
 ```bash
-git clone https://github.com/<your-username>/ai-personal-trainer.git
+git clone https://github.com/<ayushpateriya37-code>/ai-personal-trainer.git
 cd ai-personal-trainer
 
 python -m venv venv
