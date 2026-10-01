@@ -28,8 +28,8 @@ It tracks your body through a webcam (or video file), measures joint angles, cou
 
 ## Installation
 ```bash
-git clone https://github.com/<ayushpateriya37-code>/ai-personal-trainer.git
-cd ai-personal-trainer
+git clone https://github.com/<ayushpateriya37-code>/AI_PERSONAL_TRAINER.git
+cd AI_PERSONAL_TRAINER
 
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
@@ -50,7 +50,7 @@ Make sure the body parts for your exercise are fully visible to the camera.
 
 ## Project structure
 ```
-ai-personal-trainer/
+AI_PERSONAL_TRAINER/
 ├── main.py                  # entry point (webcam/video loop)
 ├── src/
 │   ├── pose_detector.py     # MediaPipe Pose wrapper
