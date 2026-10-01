@@ -1,0 +1,6 @@
+# mediapipe 0.10.30+ removed the legacy `mp.solutions` API this project uses,
+# and 0.10.21 (the last compatible release) supports Python 3.9-3.12 only.
+mediapipe>=0.10.14,<0.10.30
+# Use the GUI build (not -headless) so cv2.imshow works.
+opencv-python>=4.8
+numpy>=1.23,<2
